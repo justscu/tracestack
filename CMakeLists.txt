@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 2.8)
+
+PROJECT(parseStack)
+
+AUX_SOURCE_DIRECTORY(./src/ SRC_LIST)
+SET(EXECUTABLE_OUTPUT_PATH ./)
+
+ADD_DEFINITIONS(-g -W -Wall ${CMAKE_CXX_FLAGS})
+
+INCLUDE_DIRECTORIES(
+./ 
+)
+
+
+LINK_DIRECTORIES(
+/usr/local/lib/        
+)
+
+ADD_EXECUTABLE(parseStack ${SRC_LIST})
+
+TARGET_LINK_LIBRARIES(parseStack)
+
