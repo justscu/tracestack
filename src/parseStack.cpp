@@ -311,7 +311,10 @@ void write_functions(fstream& fout, const map<CALLER, list<CALLEE*> >& m)
 		}
 		else
 		{
-			sprintf(buf, "    \"%s/%s\" [shape=ellipse]\n", it->first.func, it->first.file);
+			if(strcmp(it->first.func, "main") == 0)
+				sprintf(buf, "    \"%s/%s\" [shape=box,color=lightblue,style=filled]\n", it->first.func, it->first.file);
+			else
+				sprintf(buf, "    \"%s/%s\" [shape=ellipse]\n", it->first.func, it->first.file);
 		}
 		fout << buf;
 		fout.flush();
