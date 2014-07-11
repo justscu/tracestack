@@ -29,6 +29,8 @@ private:
 	NODE& operator= (const NODE&);
 };
 
+//////////////////// step 1 ////////////////////////
+
 // generate call information, and make NODE
 void gen_call_info(const char* traceFile, /*out*/ NODE& root)
 {
@@ -203,7 +205,7 @@ void free_nodes(NODE& root)
 }
 
 
-///////////////////////////////////////////////
+//////////////////// step 2 ////////////////////////
 class CALLER
 {
 public:

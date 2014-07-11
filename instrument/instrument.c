@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "instrument.h"
 
-/* gcc CFLAGS="-g -finstrument-functions"*/
 
 /* Output trace file pointer */
 static FILE *fp;

@@ -1,5 +1,7 @@
 #pragma once
 
+/* gcc CFLAGS="-g -finstrument-functions"*/
+
 /* Constructor and Destructor Prototypes */
 void main_constructor( void ) __attribute__ ((no_instrument_function, constructor));
 void main_destructor( void )  __attribute__ ((no_instrument_function, destructor));
