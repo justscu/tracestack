@@ -13,5 +13,6 @@
 2. make, and generate a bin file named 'parseStack';
 3. run: ./parseStack trace.txt  yourbinfile;
 4. then, will generate a file named '2.dot';
-5. run: xdot 2.dot
+5. run: xdot 2.dot, you will see a calling graph.
+6. gedit steprun.txt, you will see function calls step by step.
 
