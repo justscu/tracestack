@@ -4,7 +4,7 @@
 1. first, you need install xdot: 
 		sudo apt-get install xdot
 2. copy 'instrument.h' & 'instrument.c' to your project;
-3. add CFALGS="-g -finstrument-functions" when you make;
+3. add CFALGS="-g -finstrument-functions" in your Makefile;
 4. run your bin file, then auto generate a file named 'trace.txt';
 
 
