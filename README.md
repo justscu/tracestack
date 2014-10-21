@@ -1,4 +1,4 @@
-h1== auto generate functions call graph for your program! ==
+== auto generate functions call graph for your program! ==
  
 ====================your project======================
 1. first, you need install xdot:
