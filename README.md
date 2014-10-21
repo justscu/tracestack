@@ -2,7 +2,7 @@ tracestack
 ==========
 auto generate functions call graph for your program!
 
-<h2\>your project<br\>
+your project
 ###
   1. first, you need install xdot: 
 >       sudo apt-get install xdot
@@ -11,7 +11,7 @@ auto generate functions call graph for your program!
   4. run your bin file, then auto generate a file named 'trace.txt';
 
 
-<h2>tracestack project<br\>
+tracestack project
 ###
   1. 'cmake .';
   2. make, and generate a bin file named 'tracestack';
