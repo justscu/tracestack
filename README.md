@@ -4,7 +4,7 @@ auto generate functions call graph for your program!
 
 your project
 ###
-  1. first, you need install xdot: 
+  1. first, you need install xdot: <br />
 >       sudo apt-get install xdot
   2. copy 'instrument.h' & 'instrument.c' to your project;
   3. add CFALGS="-g -finstrument-functions" in your Makefile;
